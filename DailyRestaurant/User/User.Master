@@ -64,10 +64,10 @@
                 <a class="nav-link" href="menu.html">Menu</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
+                <a class="nav-link" href="about.html">Despre</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="book.html">Book Table</a>
+                <a class="nav-link" href="book.html">Rezervare</a>
               </li>
             </ul>
             <div class="user_option">
@@ -134,7 +134,7 @@
                 </button>
               </form>
               <a href="" class="order_online">
-                Order Online
+                Comandă online
               </a>
             </div>
           </div>
@@ -152,10 +152,10 @@
                 <div class="col-md-7 col-lg-6 ">
                   <div class="detail-box">
                     <h1>
-                      Fast Food Restaurant
+                      Restaurant Daily
                     </h1>
                     <p>
-                      Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.
+                      Daily este un restaurant fast food modern și îndrăgit de localnici. În Daily, puteți să savurați cele mai bune și mai gustoase burgeri, cartofi prăjiți, salate și alte meniuri de specialitate. Acesta oferă de asemenea și o alternativă vegetariană, opțiuni de mâncare sănătoasă și se poate savura o varietate de băuturi răcoritoare. Daily este un loc ideal pentru a petrece timpul cu prietenii și familia, oferind întotdeauna cele mai bune produse alimentare și servicii de calitate.
                     </p>
                     <div class="btn-box">
                       <a href="" class="btn1">
@@ -173,11 +173,11 @@
                 <div class="col-md-7 col-lg-6 ">
                   <div class="detail-box">
                     <h1>
-                      Fast Food Restaurant
+                      Meniul Saptămânii
                     </h1>
                     <p>
-                      Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.
-                    </p>
+                        Acesta saptamana, restaurantul Daily are un meniu special care ofera o varietate de alegere si gusturi deosebite. Puteti experimenta arome subtile si savuroase cu gustari precum aripi de pui picante, chipsuri gatite perfect sau chiar deserturi exotice. Bucurati-va de experienta unica si experimentati cu produsele noastre, toate acestea in cel mai bun restaurant de langa voi!
+                     </p>
                     <div class="btn-box">
                       <a href="" class="btn1">
                         Order Now
@@ -194,11 +194,11 @@
                 <div class="col-md-7 col-lg-6 ">
                   <div class="detail-box">
                     <h1>
-                      Fast Food Restaurant
+                      Reducerile Saptămânii
                     </h1>
                     <p>
-                      Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.
-                    </p>
+                        Restaurantul Daily oferă reduceri speciale clienților săi, reducând prețurile produselor lor delicioase. Reducerile pe care le oferă restaurantul Daily sunt uneori atât de mari încât clienții se bucură de economii substanțiale. Unele reduceri la restaurantul Daily pot fi valabile numai pentru o anumită perioadă de timp sau preconizate în funcție de produsele selectate.
+                      </p>
                     <div class="btn-box">
                       <a href="" class="btn1">
                         Order Now
@@ -233,25 +233,25 @@
         <div class="col-md-4 footer-col">
           <div class="footer_contact">
             <h4>
-              Contact Us
+              Contacte
             </h4>
             <div class="contact_link_box">
               <a href="">
                 <i class="fa fa-map-marker" aria-hidden="true"></i>
                 <span>
-                  Location
+                  Locație UTM
                 </span>
               </a>
               <a href="">
                 <i class="fa fa-phone" aria-hidden="true"></i>
                 <span>
-                  Call +01 1234567890
+                  Telefon +373 69666666
                 </span>
               </a>
               <a href="">
                 <i class="fa fa-envelope" aria-hidden="true"></i>
                 <span>
-                  demo@gmail.com
+                  daily@gmail.com
                 </span>
               </a>
             </div>
@@ -260,48 +260,49 @@
         <div class="col-md-4 footer-col">
           <div class="footer_detail">
             <a href="" class="footer-logo">
-              Feane
+              Daily
             </a>
             <p>
-              Necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with
-            </p>
+                Servirea rapidă și delicioasă pentru o experiență culinară excelentă!" Acest slogan ne reprezintă că ne străduim să oferim cea mai bună experiență culinară clienților noștri prin produsele noastre rapide și delicioase. Avem o gamă largă de mâncăruri de cea mai bună calitate, la prețuri accesibile, pentru a satisface toate gusturile. Ne concentrăm pe excelența serviciilor de care vă puteți bucura în restaurantul nostru Daily.
+              </p>
             <div class="footer_social">
               <a href="">
-                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="facebook" aria-hidden="true"></i>
               </a>
               <a href="">
-                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="Twitter" aria-hidden="true"></i>
               </a>
               <a href="">
-                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                <i class="linkedin" aria-hidden="true"></i>
               </a>
               <a href="">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="Instagram" aria-hidden="true"></i>
               </a>
               <a href="">
-                <i class="fa fa-pinterest" aria-hidden="true"></i>
+                <i class="Pinterest" aria-hidden="true"></i>
               </a>
             </div>
           </div>
         </div>
         <div class="col-md-4 footer-col">
           <h4>
-            Opening Hours
+            Program de lucru
           </h4>
           <p>
-            Everyday
+            Luni - Duminică
           </p>
           <p>
-            10.00 Am -10.00 Pm
+            Luni - Vineri : 09:00 - 23:00
           </p>
+            <p>
+                 Sambătă - Duminică : 09:00 - 24:00
+            </p>
         </div>
       </div>
       <div class="footer-info">
         <p>
-          &copy; <span id="displayYear"></span> All Rights Reserved By
-          <a href="https://html.design/">Free Html Templates</a><br><br>
-          &copy; <span id="displayYear"></span> Distributed By
-          <a href="https://themewagon.com/" target="_blank">ThemeWagon</a>
+          &copy; <span id="displayYear"></span> All Rights Reserved 
+                 
         </p>
       </div>
     </div>
