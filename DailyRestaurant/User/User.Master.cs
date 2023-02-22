@@ -11,7 +11,19 @@ namespace DailyRestaurant.User
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!Request.Url.AbsoluteUri.ToString().Contains("Default.aspx"))
+            {
 
+            }
+            else 
+            {
+                //Load the control
+                Control SliderUserControl = (Control)Page.LoadControl("SliderUserControl.ascx");
+
+     
+                //Add the control to the panel
+                pnlSliderUC.Controls.Add(SliderUserControl);
+            }
         }
     }
 }
