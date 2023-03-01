@@ -177,6 +177,7 @@
     <Content Include="TemplateFiles\images\o2.jpg" />
     <Content Include="TemplateFiles\js\bootstrap.js" />
     <Content Include="TemplateFiles\js\custom.js" />
+    <Content Include="TemplateFiles\js\darkmode.js" />
     <Content Include="TemplateFiles\js\jquery-3.4.1.min.js" />
     <Content Include="User\About.aspx" />
     <Content Include="User\Contact.aspx" />
