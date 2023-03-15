@@ -157,6 +157,7 @@
     <Content Include="Global.asax" />
     <Content Include="TemplateFiles\css\bootstrap.css" />
     <Content Include="TemplateFiles\css\font-awesome.min.css" />
+    <Content Include="TemplateFiles\css\pagepreloader.css" />
     <Content Include="TemplateFiles\css\responsive.css" />
     <Content Include="TemplateFiles\css\style.css" />
     <Content Include="TemplateFiles\images\about-img.png" />
@@ -178,6 +179,7 @@
     <Content Include="TemplateFiles\js\bootstrap.js" />
     <Content Include="TemplateFiles\js\custom.js" />
     <Content Include="TemplateFiles\js\jquery-3.4.1.min.js" />
+    <Content Include="TemplateFiles\js\pagepreloader.js" />
     <Content Include="User\About.aspx" />
     <Content Include="User\Contact.aspx" />
     <Content Include="User\Default.aspx" />

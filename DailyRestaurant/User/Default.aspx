@@ -2,6 +2,16 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <!-- Page Preloader -->
+    <script src="../TemplateFiles/js/pagepreloader.js"></script>
+    <link href="../TemplateFiles/css/pagepreloader.css" rel="stylesheet" />
+        <div id="preloader">
+      <div class="burger">
+        <div class="bun top"></div>
+        <div class="patty"></div>
+        <div class="bun bottom"></div>
+      </div>
+    </div>
 
     <!-- offer section -->
 
