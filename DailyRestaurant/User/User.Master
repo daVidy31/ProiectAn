@@ -37,7 +37,7 @@
 
         <!-- jQery -->
   <script src="../TemplateFiles/js/jquery-3.4.1.min.js"></script>
-
+    
    <script>
        $(function () {
            // this will get the file URL at the address bar
@@ -52,10 +52,40 @@
            });
        });
    </script>
+    <style>
+.mascota {
+    position: absolute;
+    top: -40%;
+    right: -10%;
+    z-index: 4;
+    animation: mymove 8s linear;
+    animation-fill-mode: forwards;
+}
+.mascota  img{
+    width: 30%;
+}
+@keyframes mymove {
+    from {
+        top: -40%;
+    }
+
+    to {
+        top: 20%;
+    }
+}
+    </style>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
+    <div class="mascota">
+        <img src="../TemplateFiles/images/mascota.png" />
+    </div>
+    <script>
+        setTimeout(function () {
+            document.getElementsByClassName("mascota")[0].setAttribute("style","display: none");
+        }, 16000);
+    </script>
     <form id="form1" runat="server">
 
          <div class="hero_area">
