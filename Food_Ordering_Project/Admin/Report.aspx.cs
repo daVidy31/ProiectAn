@@ -45,8 +45,8 @@ namespace Food_Ordering_Project.Admin
                 {
                     grandTotal += Convert.ToDouble(drow["TotalPrice"]);
                 }
-                //Session["grandTotal"] = "Sold Cost: ₹" + grandTotal;
-                lblTotal.Text = "Sold Cost: ₹" + grandTotal;
+                //Session["grandTotal"] = "Sold Cost: Lei" + grandTotal;
+                lblTotal.Text = "Sold Cost: Lei" + grandTotal;
                 lblTotal.CssClass = "badge badge-primary";
             }
             rReport.DataSource = dt;

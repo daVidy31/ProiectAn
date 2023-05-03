@@ -22,7 +22,7 @@
                 <div class="align-self-end">
                     <asp:Label ID="lblMsg" runat="server" Visible="false"></asp:Label>
                 </div>
-                <h2>Your Shopping Cart</h2>
+                <h2>Cosul tau de cumparaturi</h2>
             </div>
         </div>
         <div class="container">
@@ -32,12 +32,12 @@
                     <table class="table data-table-export table-responsive-sm nowrap">
                         <thead>
                             <tr>
-                                <th class="table-plus">Name</th>
-                                <th>Image</th>
-                                <th>Unit Price</th>
-                                <th>Quantity</th>
-                                <th>Total Price</th>
-                                <th class="datatable-nosort"></th>
+                                <th class="table-plus">Nume</th>
+                                <th>Imagine</th>
+                                <th>Pretul unitate</th>
+                                <th>Cantitate</th>
+                                <th>Pretul total</th>
+                                <th class="datatable-nosort"></th>  
                             </tr>
                         </thead>
                         <tbody>
@@ -51,7 +51,7 @@
                         <td>
                             <img width="60" src="<%# Utils.GetImageUrl( Eval("ImageUrl")) %>" alt="">
                         </td>
-                        <td>₹<asp:Label ID="lblPrice" runat="server" Text='<%# Eval("Price") %>'></asp:Label>
+                        <td>Lei<asp:Label ID="lblPrice" runat="server" Text='<%# Eval("Price") %>'></asp:Label>
                             <asp:HiddenField ID="hdnProductId" runat="server" Value='<%# Eval("ProductId") %>' />
                             <asp:HiddenField ID="hdnQuantity" runat="server" Value='<%# Eval("Qty") %>' />
                             <asp:HiddenField ID="hdnPrdQuantity" runat="server" Value='<%# Eval("PrdQty") %>' />
@@ -64,16 +64,16 @@
                                         <asp:TextBox ID="txtQuantity" runat="server" TextMode="Number" Text='<%# Eval("Quantity") %>'></asp:TextBox>
                                         <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ForeColor="Red"
                                             Font-Size="Small" ValidationExpression="[1-9]*" ControlToValidate="txtQuantity" Display="Dynamic"
-                                            SetFocusOnError="true" ErrorMessage="Quantity can't be less than 1" EnableClientScript="true">*</asp:RegularExpressionValidator>
+                                            SetFocusOnError="true" ErrorMessage="Cantitatea minima este 1" EnableClientScript="true">*</asp:RegularExpressionValidator>
                                     </div>
                                 </div>
                             </div>
                         </td>
-                        <td>₹<asp:Label ID="lblTotalPrice" runat="server"></asp:Label>
+                        <td>Lei<asp:Label ID="lblTotalPrice" runat="server"></asp:Label>
                         </td>
                         <td>
                             <asp:LinkButton ID="lnkDelete" Text="Remove" runat="server" CommandName="remove" CommandArgument='<%# Eval("ProductId") %>'
-                                OnClientClick="return confirm('Do you want to remove this item from cart?');">
+                                OnClientClick="return confirm('Doriti sa stergeti acest produs din cos?');">
                                 <i class="fa fa-close"></i>
                             </asp:LinkButton>
                             <asp:ValidationSummary ID="ValidationSummary1" runat="server" ForeColor="Red" DisplayMode="SingleParagraph" Font-Bold="true"
@@ -85,24 +85,24 @@
                     <tr>
                         <td colspan="3"></td>
                         <td class="pl-lg-5">
-                            <b>Grand Total :-</b>
+                            <b>Total :-</b>
                         </td>
                         <td>
-                            <b>₹<% Response.Write(Session["grndTotalPrice"]); %></b>
+                            <b>Lei<% Response.Write(Session["grndTotalPrice"]); %></b>
                         </td>
                         <td></td>
                     </tr>
                     <tr>
                         <td colspan="2" class="continue__btn">
-                            <a href="Menu.aspx" class="btn btn-info"><i class="fa fa-arrow-circle-left mr-2"></i>Continue Shopping</a>
+                            <a href="Menu.aspx" class="btn btn-info"><i class="fa fa-arrow-circle-left mr-2"></i>Continuati cumparaturile</a>
                         </td>
                         <td colspan="2">
                             <asp:LinkButton ID="lbUpdateCart" runat="server" CommandName="updateCart" CssClass="btn btn-warning">
-                                     <i class="fa fa-refresh mr-2"></i>Update Cart</asp:LinkButton>
+                                     <i class="fa fa-refresh mr-2"></i>Update Cos</asp:LinkButton>
                         </td>
                         <td colspan="2">
                             <asp:LinkButton ID="lbCheckout" runat="server" CommandName="checkout" CssClass="btn btn-success">
-                                     Checkout<i class="fa fa-arrow-circle-right ml-2"></i></asp:LinkButton>
+                                     Cumparati<i class="fa fa-arrow-circle-right ml-2"></i></asp:LinkButton>
                         </td>
                     </tr>
                     </tbody>

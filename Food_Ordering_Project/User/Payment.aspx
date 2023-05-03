@@ -66,7 +66,7 @@
             <!-- For demo purpose -->
             <div class="row mb-4">
                 <div class="col-lg-8 mx-auto text-center">
-                    <h1 class="display-6">Order Payment</h1>
+                    <h1 class="display-6">Achita Comanda</h1>
                 </div>
             </div>
             <!-- End -->
@@ -77,8 +77,8 @@
                             <div class="bg-white shadow-sm pt-4 pl-2 pr-2 pb-2">
                                 <!-- Payment type tabs -->
                                 <ul role="tablist" class="nav bg-light nav-pills rounded nav-fill mb-3">
-                                    <li class="nav-item"><a data-toggle="pill" href="#credit-card" class="nav-link active "><i class="fa fa-credit-card mr-2"></i>Credit Card </a></li>
-                                    <li class="nav-item"><a data-toggle="pill" href="#paypal" class="nav-link "><i class="fa fa-money mr-2"></i>Cash On Delivery </a></li>
+                                    <li class="nav-item"><a data-toggle="pill" href="#credit-card" class="nav-link active "><i class="fa fa-credit-card mr-2"></i>Card bancar </a></li>
+                                    <li class="nav-item"><a data-toggle="pill" href="#paypal" class="nav-link "><i class="fa fa-money mr-2"></i>Achitare Cash la Livrare </a></li>
                                     <%--<li class="nav-item"><a data-toggle="pill" href="#net-banking" class="nav-link "><i class="fa fa-mobile mr-2"></i>Net Banking </a></li>--%>
                                 </ul>
                                 <!-- End -->
@@ -90,30 +90,30 @@
                                     <div role="form">
                                         <div class="form-group">
                                             <label for="txtName">
-                                                <h6>Card Owner</h6>
+                                                <h6>Proprietarul Cardului</h6>
                                             </label>
-                                            <asp:RequiredFieldValidator ID="rfvName" runat="server" ErrorMessage="Name is required"
+                                            <asp:RequiredFieldValidator ID="rfvName" runat="server" ErrorMessage="Numele este necesar"
                                                 ControlToValidate="txtName" ForeColor="Red" Display="Dynamic" SetFocusOnError="true"
                                                 ValidationGroup="card">*</asp:RequiredFieldValidator>
                                             <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server"
-                                                ErrorMessage="Name must be in characters" ForeColor="Red" Display="Dynamic" SetFocusOnError="true"
+                                                ErrorMessage="Numele trebuie sa fie in caractere" ForeColor="Red" Display="Dynamic" SetFocusOnError="true"
                                                 ValidationExpression="^[a-zA-Z\s]+$" ControlToValidate="txtName" ValidationGroup="card">*
                                             </asp:RegularExpressionValidator>
-                                            <asp:TextBox ID="txtName" runat="server" CssClass="form-control" placeholder="Card Owner Name"></asp:TextBox>
+                                            <asp:TextBox ID="txtName" runat="server" CssClass="form-control" placeholder="Numele proprietarului cardului"></asp:TextBox>
                                         </div>
                                         <div class="form-group">
                                             <label for="txtCardNo">
-                                                <h6>Card number</h6>
+                                                <h6>Numarul cardului</h6>
                                             </label>
-                                            <asp:RequiredFieldValidator ID="rfvCardNo" runat="server" ErrorMessage="Card number is required"
+                                            <asp:RequiredFieldValidator ID="rfvCardNo" runat="server" ErrorMessage="Numarul cardului este necesar"
                                                 ControlToValidate="txtCardNo" ForeColor="Red" Display="Dynamic" SetFocusOnError="true"
                                                 ValidationGroup="card">*</asp:RequiredFieldValidator>
                                             <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server"
-                                                ErrorMessage="Card Number must be of 16 digits" ForeColor="Red" Display="Dynamic" SetFocusOnError="true"
+                                                ErrorMessage="Numarul cardului trebuie sa fie 16 caractere" ForeColor="Red" Display="Dynamic" SetFocusOnError="true"
                                                 ValidationExpression="[0-9]{16}" ControlToValidate="txtCardNo" ValidationGroup="card">*
                                             </asp:RegularExpressionValidator>
                                             <div class="input-group">
-                                                <asp:TextBox ID="txtCardNo" runat="server" CssClass="form-control" placeholder="Valid card number"
+                                                <asp:TextBox ID="txtCardNo" runat="server" CssClass="form-control" placeholder="Card valabil"
                                                     TextMode="Number"></asp:TextBox>
                                                 <div class="input-group-append">
                                                     <span class="input-group-text text-muted">
@@ -129,21 +129,21 @@
                                                 <div class="form-group">
                                                     <label>
                                                         <span class="hidden-xs">
-                                                            <h6>Expiration Date</h6>
+                                                            <h6>Data expirarii</h6>
                                                         </span>
                                                     </label>
-                                                    <asp:RequiredFieldValidator ID="rfvExpMonth" runat="server" ErrorMessage="Expiry month is required"
+                                                    <asp:RequiredFieldValidator ID="rfvExpMonth" runat="server" ErrorMessage="Luna expirarii este necesara"
                                                         ControlToValidate="txtExpMonth" ForeColor="Red" Display="Dynamic" SetFocusOnError="true"
                                                         ValidationGroup="card">*</asp:RequiredFieldValidator>
                                                     <asp:RegularExpressionValidator ID="RegularExpressionValidator3" runat="server" Display="Dynamic"
-                                                        ErrorMessage="Expiry month must be of 2 digits" ForeColor="Red" SetFocusOnError="true"
+                                                        ErrorMessage="Luna expirarii trebuie sa contina 2 caractere" ForeColor="Red" SetFocusOnError="true"
                                                         ValidationExpression="[0-9]{2}" ControlToValidate="txtExpMonth" ValidationGroup="card">*
                                                     </asp:RegularExpressionValidator>
-                                                    <asp:RequiredFieldValidator ID="rfvExpYear" runat="server" ErrorMessage="Expiry year is required"
+                                                    <asp:RequiredFieldValidator ID="rfvExpYear" runat="server" ErrorMessage="Anul exprirarii este necesar"
                                                         ControlToValidate="txtExpYear" ForeColor="Red" Display="Dynamic" SetFocusOnError="true"
                                                         ValidationGroup="card">*</asp:RequiredFieldValidator>
                                                     <asp:RegularExpressionValidator ID="RegularExpressionValidator4" runat="server" Display="Dynamic"
-                                                        ErrorMessage="Expiry year must be of 4 digits" ForeColor="Red" SetFocusOnError="true"
+                                                        ErrorMessage="Anul expirarii trebuie sa contina 4 caractere" ForeColor="Red" SetFocusOnError="true"
                                                         ValidationExpression="[0-9]{4}" ControlToValidate="txtExpYear" ValidationGroup="card">*
                                                     </asp:RegularExpressionValidator>
                                                     <div class="input-group">
@@ -156,34 +156,34 @@
                                             </div>
                                             <div class="col-sm-4">
                                                 <div class="form-group mb-4">
-                                                    <label data-toggle="tooltip" title="Three digit CV code on the back of your card">
+                                                    <label data-toggle="tooltip" title="3 cifre CVV din spatele cardului">
                                                         <h6>CVV <i class="fa fa-question-circle d-inline"></i></h6>
                                                     </label>
-                                                    <asp:RequiredFieldValidator ID="rfvCvv" runat="server" ErrorMessage="CVV no. is required"
+                                                    <asp:RequiredFieldValidator ID="rfvCvv" runat="server" ErrorMessage="CVV numar este necesar"
                                                         ControlToValidate="txtCvv" ForeColor="Red" Display="Dynamic" SetFocusOnError="true"
                                                         ValidationGroup="card">*</asp:RequiredFieldValidator>
                                                     <asp:RegularExpressionValidator ID="RegularExpressionValidator5" runat="server" Display="Dynamic"
-                                                        ErrorMessage="CVV no. must be of 3 digits" ForeColor="Red" SetFocusOnError="true"
+                                                        ErrorMessage="CVV numar trebuie sa contina 3 caractere" ForeColor="Red" SetFocusOnError="true"
                                                         ValidationExpression="[0-9]{3}" ControlToValidate="txtCvv" ValidationGroup="card">*
                                                     </asp:RegularExpressionValidator>
-                                                    <asp:TextBox ID="txtCvv" runat="server" CssClass="form-control" placeholder="CVV No."
+                                                    <asp:TextBox ID="txtCvv" runat="server" CssClass="form-control" placeholder="CVV Nr."
                                                         TextMode="Number"></asp:TextBox>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="form-group">
                                             <label for="txtAddress">
-                                                <h6>Delivery Address</h6>
+                                                <h6>Adresa livrarii</h6>
                                             </label>
-                                            <asp:RequiredFieldValidator ID="rfvAddress" runat="server" ErrorMessage="Address is required" ForeColor="Red"
+                                            <asp:RequiredFieldValidator ID="rfvAddress" runat="server" ErrorMessage="Adresa este necesara" ForeColor="Red"
                                                 ControlToValidate="txtAddress" Display="Dynamic" SetFocusOnError="true" ValidationGroup="card">*
                                             </asp:RequiredFieldValidator>
-                                            <asp:TextBox ID="txtAddress" runat="server" CssClass="form-control" placeholder="Delivery Address"
+                                            <asp:TextBox ID="txtAddress" runat="server" CssClass="form-control" placeholder="Adresa livrarii"
                                                 TextMode="MultiLine" ValidationGroup="card"></asp:TextBox>
                                         </div>
                                         <div class="card-footer">
                                             <asp:LinkButton ID="lbCardSubmit" runat="server" CssClass="subscribe btn btn-info btn-block shadow-sm"
-                                                ValidationGroup="card" OnClick="lbCardSubmit_Click">Confirm Payment</asp:LinkButton>
+                                                ValidationGroup="card" OnClick="lbCardSubmit_Click">Confirma comanda</asp:LinkButton>
                                         </div>
                                     </div>
                                 </div>
@@ -192,21 +192,20 @@
                                 <div id="paypal" class="tab-pane fade pt-3">
                                     <div class="form-group">
                                         <label for="txtCODAddress">
-                                            <h6>Delivery Address</h6>
+                                            <h6>Adresa livrarii</h6>
                                         </label>
-                                        <asp:TextBox ID="txtCODAddress" runat="server" CssClass="form-control" placeholder="Delivery Address"
+                                        <asp:TextBox ID="txtCODAddress" runat="server" CssClass="form-control" placeholder="Adresa livrarii"
                                             TextMode="MultiLine"></asp:TextBox>
-                                        <asp:RequiredFieldValidator ID="rfvCODAddress" runat="server" ErrorMessage="Address is required" ForeColor="Red"
+                                        <asp:RequiredFieldValidator ID="rfvCODAddress" runat="server" ErrorMessage="Adresa este necesara" ForeColor="Red"
                                             ControlToValidate="txtCODAddress" Display="Dynamic" SetFocusOnError="true" ValidationGroup="cod"
                                             Font-Names="Segoe Script"></asp:RequiredFieldValidator>
                                     </div>
                                     <p>
                                         <asp:LinkButton ID="lbCodSubmit" runat="server" CssClass="btn btn-info" ValidationGroup="cod" OnClick="lbCodSubmit_Click">
-                                            <i class="fa fa-cart-arrow-down mr-2"></i>Confirm Order</asp:LinkButton>
+                                            <i class="fa fa-cart-arrow-down mr-2"></i>Confirma comanda</asp:LinkButton>
                                     </p>
                                     <p class="text-muted">
-                                        Note: At the of recieving your order, you need to do full payment. 
-                                    After completing the payment process, you can check your updated order status.
+                                        Nota: La primirea comenzii trebuie sa achitati suma intreaga. Dupa achitare puteti sa va uitati la statusul comenzii. 
                                     </p>
                                 </div>
                                 <!-- End -->
@@ -214,10 +213,10 @@
                             <!-- End -->
                         </div>
                         <div class="card-footer">
-                            <b class="badge badge-success badge-pill shadow-sm">Order Total: ₹ <% Response.Write(Session["grndTotalPrice"]); %> </b>
+                            <b class="badge badge-success badge-pill shadow-sm">Suma totala: Lei <% Response.Write(Session["grndTotalPrice"]); %> </b>
                             <div class="pt-1">
                                 <asp:ValidationSummary ID="ValidationSummary1" runat="server" ForeColor="Red" ValidationGroup="card"
-                                    HeaderText="Fix the following errors" Font-Names="Segoe Script" />
+                                    HeaderText="Fixati erorile" Font-Names="Segoe Script" />
                             </div>
                         </div>
                     </div>

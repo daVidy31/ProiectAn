@@ -18,7 +18,7 @@
                 <div class="align-self-end">
                     <asp:Label ID="lblMsg" runat="server" Visible="false"></asp:Label>
                 </div>
-                <h2>Login</h2>
+                <h2>Logare</h2>
             </div>
             <div class="row">
                 <div class="col-md-6">
@@ -29,20 +29,20 @@
                 <div class="col-md-6">
                     <div class="form_container">
                         <div>
-                            <asp:RequiredFieldValidator ID="rfvUsername" runat="server" ErrorMessage="Username is required" 
+                            <asp:RequiredFieldValidator ID="rfvUsername" runat="server" ErrorMessage="Username este necesar" 
                                 ControlToValidate="txtUsername" ForeColor="Red" Display="Dynamic" SetFocusOnError="true"></asp:RequiredFieldValidator>
-                            <asp:TextBox ID="txtUsername" runat="server" CssClass="form-control" placeholder="Enter Username"></asp:TextBox>
+                            <asp:TextBox ID="txtUsername" runat="server" CssClass="form-control" placeholder="Introduceti Username"></asp:TextBox>
                         </div>
                         <div>
-                            <asp:RequiredFieldValidator ID="rfvPassword" runat="server" ErrorMessage="Password is required" ControlToValidate="txtPassword"
+                            <asp:RequiredFieldValidator ID="rfvPassword" runat="server" ErrorMessage="Parola este necesara" ControlToValidate="txtPassword"
                                 ForeColor="Red" Display="Dynamic" SetFocusOnError="true"></asp:RequiredFieldValidator>
-                            <asp:TextBox ID="txtPassword" runat="server" CssClass="form-control" placeholder="Enter Password" TextMode="Password">
+                            <asp:TextBox ID="txtPassword" runat="server" CssClass="form-control" placeholder="Introduceti Parola" TextMode="Password">
                             </asp:TextBox>
                         </div>
                         <div class="btn_box">
                             <asp:Button ID="btnLogin" runat="server" Text="Login" CssClass="btn btn-success rounded-pill pl-4 pr-4 text-white"
                                 OnClick="btnLogin_Click"/>
-                            <span class="pl-3 text-info">New User? <a href="Registration.aspx" class="badge badge-info">Register here..</a></span>
+                            <span class="pl-3 text-info">Utilizator nou? <a href="Registration.aspx" class="badge badge-info">Inregistrati-va aici</a></span>
                         </div>
                     </div>
                 </div>

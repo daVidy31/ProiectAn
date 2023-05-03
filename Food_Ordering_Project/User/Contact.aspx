@@ -20,32 +20,32 @@
                 <div class="align-self-end">
                     <asp:Label ID="lblMsg" runat="server" Visible="false"></asp:Label>
                 </div>
-                <h2>Send Your Query</h2>
+                <h2>Lasati-ne un Feedback</h2>
             </div>
             <div class="row">
                 <div class="col-md-6">
                     <div class="form_container">
 
                         <div>
-                            <asp:RequiredFieldValidator ID="rfvName" runat="server" ErrorMessage="Name is required" ControlToValidate="txtName"
+                            <asp:RequiredFieldValidator ID="rfvName" runat="server" ErrorMessage="Introduceti numele" ControlToValidate="txtName"
                                 ForeColor="Red" Display="Dynamic" SetFocusOnError="true"></asp:RequiredFieldValidator>
-                            <asp:TextBox ID="txtName" runat="server" CssClass="form-control" placeholder="Your Name"></asp:TextBox>
+                            <asp:TextBox ID="txtName" runat="server" CssClass="form-control" placeholder="Nume"></asp:TextBox>
                         </div>
                         <div>
-                            <asp:RequiredFieldValidator ID="rfvEmail" runat="server" ErrorMessage="Email is required" ControlToValidate="txtEmail"
+                            <asp:RequiredFieldValidator ID="rfvEmail" runat="server" ErrorMessage="Introduceti Email" ControlToValidate="txtEmail"
                                 ForeColor="Red" Display="Dynamic" SetFocusOnError="true"></asp:RequiredFieldValidator>
-                            <asp:TextBox ID="txtEmail" runat="server" CssClass="form-control" TextMode="Email" placeholder="Your Email"></asp:TextBox>
+                            <asp:TextBox ID="txtEmail" runat="server" CssClass="form-control" TextMode="Email" placeholder="Email"></asp:TextBox>
                         </div>
                         <div>
-                            <asp:RequiredFieldValidator ID="rfvSubject" runat="server" ErrorMessage="Subject is required" ControlToValidate="txtSubject"
+                            <asp:RequiredFieldValidator ID="rfvSubject" runat="server" ErrorMessage="Indicati numarul de telefon" ControlToValidate="txtSubject"
                                 ForeColor="Red" Display="Dynamic" SetFocusOnError="true"></asp:RequiredFieldValidator>
-                            <asp:TextBox ID="txtSubject" runat="server" CssClass="form-control" placeholder="Subject"></asp:TextBox>
+                            <asp:TextBox ID="txtSubject" runat="server" CssClass="form-control" placeholder="Numar de telefon"></asp:TextBox>
                         </div>
                         <div>
-                            <asp:RequiredFieldValidator ID="rfvMessage" runat="server" ErrorMessage="Message is required" ControlToValidate="txtMessage"
+                            <asp:RequiredFieldValidator ID="rfvMessage" runat="server" ErrorMessage="Mesajul este obligatoriu" ControlToValidate="txtMessage"
                                 ForeColor="Red" Display="Dynamic" SetFocusOnError="true"></asp:RequiredFieldValidator>
                             <asp:TextBox ID="txtMessage" runat="server" TextMode="MultiLine" CssClass="form-control" Height="200"
-                                placeholder="Enter Your Query/Feedback"></asp:TextBox>
+                                placeholder="Introduceti un Feedback"></asp:TextBox>
                         </div>
 
                         <div class="btn_box">

@@ -24,12 +24,12 @@
                 <div class="align-self-end">
                     <asp:Label ID="lblMsg" runat="server" Visible="false"></asp:Label>
                 </div>
-                <h2>Our Menu
+                <h2>Meniul nostru
                 </h2>
             </div>
 
             <ul class="filters_menu">
-                <li class="active" data-filter="*" data-id="0">All</li>
+                <li class="active" data-filter="*" data-id="0">Toate</li>
                 <asp:Repeater ID="rCategories" runat="server">
                     <ItemTemplate>
                         <li data-filter=".<%# LowerCase(Eval("Name")) %>" data-id="<%# Eval("CategoryId") %>"><%# Eval("Name") %></li>
@@ -53,7 +53,7 @@
                                                 <%# Eval("Description") %>
                                             </p>
                                             <div class="options">
-                                                <h6>₹<%# Eval("Price") %></h6>
+                                                <h6>Lei<%# Eval("Price") %></h6>
                                                 <%--<div class="product__details__option">
                                                     <div class="quantity">
                                                         <div class="pro-qty">

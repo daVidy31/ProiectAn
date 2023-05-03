@@ -71,7 +71,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
-                                                    <label>Product Price(₹)</label>
+                                                    <label>Product Price(Lei)</label>
                                                     <div>
                                                         <asp:TextBox ID="txtPrice" runat="server" CssClass="form-control"
                                                             placeholder="Enter Product Price"></asp:TextBox>
@@ -152,7 +152,7 @@
                                                                     <tr>
                                                                         <th class="table-plus">Name</th>
                                                                         <th>Image</th>
-                                                                        <th>Price(₹)</th>
+                                                                        <th>Price(Lei)</th>
                                                                         <th>Qty</th>
                                                                         <th>Category</th>
                                                                         <th>IsActive</th>

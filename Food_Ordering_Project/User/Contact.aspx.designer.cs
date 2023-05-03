@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Food_Ordering_Project.User {
-    
-    
-    public partial class Contact {
-        
+namespace Food_Ordering_Project.User
+{
+
+
+    public partial class Contact
+    {
+
         /// <summary>
         /// lblMsg control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace Food_Ordering_Project.User {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblMsg;
-        
+
         /// <summary>
         /// rfvName control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace Food_Ordering_Project.User {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvName;
-        
+
         /// <summary>
         /// txtName control.
         /// </summary>
@@ -38,7 +40,7 @@ namespace Food_Ordering_Project.User {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtName;
-        
+
         /// <summary>
         /// rfvEmail control.
         /// </summary>
@@ -47,7 +49,7 @@ namespace Food_Ordering_Project.User {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvEmail;
-        
+
         /// <summary>
         /// txtEmail control.
         /// </summary>
@@ -56,7 +58,7 @@ namespace Food_Ordering_Project.User {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtEmail;
-        
+
         /// <summary>
         /// rfvSubject control.
         /// </summary>
@@ -65,7 +67,7 @@ namespace Food_Ordering_Project.User {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvSubject;
-        
+
         /// <summary>
         /// txtSubject control.
         /// </summary>
@@ -74,7 +76,7 @@ namespace Food_Ordering_Project.User {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtSubject;
-        
+
         /// <summary>
         /// rfvMessage control.
         /// </summary>
@@ -83,7 +85,7 @@ namespace Food_Ordering_Project.User {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvMessage;
-        
+
         /// <summary>
         /// txtMessage control.
         /// </summary>
@@ -92,7 +94,7 @@ namespace Food_Ordering_Project.User {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtMessage;
-        
+
         /// <summary>
         /// btnSubmit control.
         /// </summary>

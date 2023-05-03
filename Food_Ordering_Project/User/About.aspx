@@ -18,17 +18,17 @@
           <div class="detail-box">
             <div class="heading_container">
               <h2>
-                We Are Feane
+                Noi suntem "Daily"
               </h2>
             </div>
             <p>
-              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
-              in some form, by injected humour, or randomised words which don't look even slightly believable. If you
-              are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in
-              the middle of text. All
+               Meniul nostru variat și bogat este compus din preparate din carne, legume, 
+              lactate, produse din cereale și fructe, toate gătite cu produse și ingrediente naturale. 
+              Toate produsele noastre sunt selectate de către specialiștii noștri folosind cele mai 
+              stricte standarde de calitate si siguranță alimentară. 
             </p>
             <a href="">
-              Read More
+              Citește mai mult
             </a>
           </div>
         </div>

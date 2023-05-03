@@ -44,7 +44,7 @@ namespace Food_Ordering_Project.User
         {
             try
             {
-                string downloadPath = @"E:\order_invoice.pdf";
+                string downloadPath = @"C:\order_invoice.pdf";
                 DataTable dtbl = GetOrderDetails();
                 ExportToPdf(dtbl, downloadPath, "Order Invoice");
 
@@ -111,7 +111,7 @@ namespace Food_Ordering_Project.User
             BaseFont btnAuthor = BaseFont.CreateFont(BaseFont.TIMES_ROMAN, BaseFont.CP1252, BaseFont.NOT_EMBEDDED);
             Font fntAuthor = new Font(btnAuthor, 8, 2, Color.GRAY);
             prgAuthor.Alignment = Element.ALIGN_RIGHT;
-            prgAuthor.Add(new Chunk("Order From : Foodie Fast Food", fntAuthor));
+            prgAuthor.Add(new Chunk("Order From : Daily Fast Food", fntAuthor));
             prgAuthor.Add(new Chunk("\nOrder Date : " + dtblTable.Rows[0]["OrderDate"].ToString(), fntAuthor));
             document.Add(prgAuthor);
 

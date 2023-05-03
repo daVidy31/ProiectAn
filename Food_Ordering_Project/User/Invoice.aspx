@@ -28,12 +28,12 @@
                         <table class="table table-responsive-sm table-bordered table-hover" id="tblInvoice">
                             <thead class="bg-dark text-white">
                                 <tr>
-                                    <th>Sr.No</th>
-                                    <th>Order Number</th>
-                                    <th>Item Name</th>
-                                    <th>Unit Price</th>
-                                    <th>Quantity</th>
-                                    <th>Total Price</th>
+                                    <th>Serial N.</th>
+                                    <th>Numarul comenzii</th>
+                                    <th>Numele produsului</th>
+                                    <th>Pretul unitate</th>
+                                    <th>Cantitate</th>
+                                    <th>Pretul total</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -48,13 +48,13 @@
                                 <%# Eval("Name") %>
                             </td>
                             <td>
-                                <%# string.IsNullOrEmpty( Eval("Price").ToString() ) ? "" : "₹"+ Eval("Price") %>
+                                <%# string.IsNullOrEmpty( Eval("Price").ToString() ) ? "" : "Lei"+ Eval("Price") %>
                             </td>
                             <td>
                                 <%# Eval("Quantity") %>
                             </td>
                             <td>
-                                ₹<%# Eval("TotalPrice") %>
+                                Lei<%# Eval("TotalPrice") %>
                             </td>
                         </tr>
                     </ItemTemplate>

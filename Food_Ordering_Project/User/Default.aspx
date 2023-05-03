@@ -152,16 +152,16 @@
                 <div class="col-md-6">
                     <div class="detail-box">
                         <div class="heading_container">
-                            <h2>We Are Foodie
+                            <h2>Noi suntem Daily
                             </h2>
                         </div>
                         <p>
-                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
-              in some form, by injected humour, or randomised words which don't look even slightly believable. If you
-              are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in
-              the middle of text. All
+                             Meniul nostru variat și bogat este compus din preparate din carne, legume, 
+              lactate, produse din cereale și fructe, toate gătite cu produse și ingrediente naturale. 
+              Toate produsele noastre sunt selectate de către specialiștii noștri folosind cele mai 
+              stricte standarde de calitate si siguranță alimentară. 
                         </p>
-                        <a href="">Read More
+                        <a href="">Citeste mai mult
                         </a>
                     </div>
                 </div>
@@ -177,7 +177,7 @@
             background-size: contain; background-attachment:fixed; background-position:left">
         <div class="container">
             <div class="heading_container heading_center psudo_white_primary mb_45">
-                <h2>What Says Our Customers
+                <h2>Recenzii
                 </h2>
             </div>
             <div class="carousel-wrap row ">
@@ -186,13 +186,10 @@
                         <div class="box">
                             <div class="detail-box">
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-                                </p>
-                                <h6>Moana Michell
+                                     De la intrare, veți fi întâmpinați de personalul profesionist și amabil. Sala de mese este elegant decorată, cu mobilier modern și lumină ambientală.
+                                   </p>
+                                <h6>Ecaterina V.
                                 </h6>
-                                <p>
-                                    magna aliqua
-                                </p>
                             </div>
                             <div class="img-box">
                                 <img src="../TemplateFiles/images/client1.jpg" alt="" class="box-img">
@@ -203,13 +200,10 @@
                         <div class="box">
                             <div class="detail-box">
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-                                </p>
-                                <h6>Mike Hamell
+                                     Meniul variat oferă o gamă largă de preparate din diferite bucătării, atât internaționale cât și locale. Fiecare platou este preparat cu ingrediente proaspete și pregătite cu îndemânare, astfel încât să ofere o experiență gustativă de neuitat.
+                                 </p>
+                                <h6>Igor A.
                                 </h6>
-                                <p>
-                                    magna aliqua
-                                </p>
                             </div>
                             <div class="img-box">
                                 <img src="../TemplateFiles/images/client2.jpg" alt="" class="box-img">

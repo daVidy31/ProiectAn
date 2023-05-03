@@ -73,7 +73,7 @@
                                                                 <td>
                                                                     <%# Eval("TotalOrders") %>
                                                                 </td>
-                                                                <td>₹<%# Eval("TotalPrice") %>
+                                                                <td>Lei<%# Eval("TotalPrice") %>
                                                                 </td>
                                                             </tr>
                                                         </ItemTemplate>
