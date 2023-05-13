@@ -53,11 +53,11 @@
                                                 <%# Eval("Description") %>
                                             </p>
                                             <div class="options">
-                                                <h6>Lei<%# Eval("Price") %></h6>
+                                                <h6>Lei <%# Eval("Price") %></h6>
                                                 <%--<div class="product__details__option">
                                                     <div class="quantity">
                                                         <div class="pro-qty">
-                                                            <asp:TextBox ID="txtQuantity" runat="server" TextMode="Number" value="1"
+                                                            <asp:TextBox ID="txtQuantity" runat="server" TextMode="Number" value="2"
                                                                 BackColor="#222831" ForeColor="white"></asp:TextBox>
                                                             <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ErrorMessage="*" ForeColor="Red"
                                                                 Font-Size="Small" ValidationExpression="[1-9]*" ControlToValidate="txtQuantity" Display="Dynamic"

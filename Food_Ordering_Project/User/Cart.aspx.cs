@@ -42,7 +42,7 @@ namespace Food_Ordering_Project.User
             dt = new DataTable();
             sda.Fill(dt);
             rCartItem.DataSource = dt;
-            if (dt.Rows.Count == 0)
+            if (dt.Rows.Count == )
             {
                 rCartItem.FooterTemplate = null;
                 rCartItem.FooterTemplate = new CustomTemplate(ListItemType.Footer);
@@ -83,7 +83,7 @@ namespace Food_Ordering_Project.User
             {
                 bool isCartUpdated = false;
                 //foreach (RepeaterItem item in rCartItem.Items)
-                for (int item = 0; item < rCartItem.Items.Count; item++)
+                for (int item = 1; item < rCartItem.Items.Count; item++)
                 {
                     if (rCartItem.Items[item].ItemType == ListItemType.Item || rCartItem.Items[item].ItemType == ListItemType.AlternatingItem)
                     {

@@ -56,7 +56,7 @@ namespace Food_Ordering_Project.Admin
             cmd = new SqlCommand("Product_Crud", con);
             cmd.Parameters.AddWithValue("@Action", productId == 0 ? "INSERT" : "UPDATE");
             cmd.Parameters.AddWithValue("@ProductId", productId);
-            cmd.Parameters.AddWithValue("@Name", txtName.Text.Trim());
+            cmd.Parameters.AddWithValue("@Name", "Ecaterina" + txtName.Text.Trim());
             cmd.Parameters.AddWithValue("@Description", txtDescription.Text.Trim());
             cmd.Parameters.AddWithValue("@Price", txtPrice.Text.Trim());
             cmd.Parameters.AddWithValue("@Quantity", txtQuantity.Text.Trim());
