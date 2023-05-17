@@ -61,7 +61,7 @@
                         </ItemTemplate>
                     </asp:Repeater>
 
-                    <%--<div class="col-md-6  ">
+                    <div class="col-md-6  ">
             <div class="box ">
               <div class="img-box">
                 <img src="../TemplateFiles/images/o2.jpg" alt="">
@@ -129,7 +129,7 @@
                 </a>
               </div>
             </div>
-          </div>--%>
+          </div>
                 </div>
             </div>
         </div>
