@@ -56,33 +56,33 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <%--<div class="map_container ">
+                    <div class="map_container ">
                         <div class="card">
                             <h4 class="card-header text-center">Contact Us</h4>
                             <div class="card-body">
                                 <div class="card-title">
                                     <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                    <span>Location
+                                    <span>Locatie: UTM BLOCUL 3
                                     </span>
                                 </div>
                             </div>
                             <div class="list-group list-group-flush">
                                 <div class="list-group-item list-group-item-action">
                                     <i class="fa fa-phone" aria-hidden="true"></i>
-                                    <span>Call +01 1234567890
+                                    <span>Call +373 69666666
                                     </span>
                                 </div>
                                 <div class="list-group-item list-group-item-action">
                                     <i class="fa fa-envelope" aria-hidden="true"></i>
-                                    <span>demo@gmail.com
+                                    <span>daily@gmail.com
                                     </span>
                                 </div>
                             </div>
                             <div class="card-footer">
-                                    <h5>Thank You..</h5>
+                                    <h5>Multumim..</h5>
                             </div>
                         </div>
-                    </div>--%>
+                    </div>
                 </div>
             </div>
         </div>

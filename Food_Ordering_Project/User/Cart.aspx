@@ -112,7 +112,7 @@
 
 
 
-            <%--<asp:GridView ID="gvCartItem" runat="server" AutoGenerateColumns="False">
+           <asp:GridView ID="gvCartItem" runat="server" AutoGenerateColumns="False">
                 <Columns>
                     <asp:BoundField DataField="Name" HeaderText="Item Name">
                     <ItemStyle HorizontalAlign="Center" />
@@ -138,7 +138,7 @@
                     </asp:CommandField>
                 </Columns>
                 
-            </asp:GridView>--%>
+            </asp:GridView>
         </div>
     </section>
 
